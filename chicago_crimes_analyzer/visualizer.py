@@ -50,7 +50,7 @@ def main():
     st.markdown('#')
 
     st.title('Thesis #4')
-    st.write('Chicago has a humid continental climate, which means that winters there are pretty rough with daylight reducing down to 9.5 hours a day (according to https://www.ncei.noaa.gov/);'
+    st.write('Chicago has a humid continental climate, which means that winters there are pretty rough with daylight reducing down to 9.5 hours a day (according to https://www.ncei.noaa.gov/) '
              'Based on this data, assumption is that most of the crimes are commited when there is less visibility throughout the day, that is - during the winter ')
 
     st.markdown('#')
