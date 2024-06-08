@@ -1,5 +1,4 @@
 import streamlit as st
-import altair as alt
 
 from processor import data_processor
 
