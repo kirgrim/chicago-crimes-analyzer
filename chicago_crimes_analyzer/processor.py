@@ -85,7 +85,6 @@ class ChicagoDataProcessor:
         df['Date'] = pd.to_datetime(df['Date'], format='%m/%d/%Y %H:%M:%S %p')
         df['Month'] = df['Date'].dt.to_period('M').astype(str)
         grouped = df.groupby('Month').size().reset_index(name='count')
-        print(grouped.head())
         return pd.DataFrame({
             'Month': grouped['Month'],
             'Count': grouped['count']
